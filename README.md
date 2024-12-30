@@ -48,4 +48,11 @@ class MyApp extends StatelessWidget {
   }
 }
 
+=============================================================
 
+ CustomButtonWidget(
+                text: "LOGIN",
+                textColor: Constcolor.textwhite,
+                onPressed: () {
+                  Get.toNamed("/login");
+                },
